@@ -1,0 +1,23 @@
+artifact_path: file:///c:/Users/necca/OneDrive/Documentos/projeto_ml01/notebooks/mlruns/1/models/m-497e88824419451d8bab0836c771231a/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.11.4
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.8.0
+    skops_trusted_types: null
+mlflow_version: 3.10.1
+model_id: m-497e88824419451d8bab0836c771231a
+model_size_bytes: 17583
+model_uuid: m-497e88824419451d8bab0836c771231a
+prompts: null
+run_id: b8ef5a987d3d43f8bdb5994955a2345e
+utc_time_created: '2026-03-31 23:15:29.781377'
